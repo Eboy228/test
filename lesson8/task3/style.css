@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color: rgb(204, 203, 203);
+    font-size: 24px;
+    line-height: 24px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 36px;
+    line-height: normal;
+    margin-top: 30px;
+}
+span:hover, li:hover{
+
+    font-size: 28px;
+}
+li{
+    padding: 15px 0;
+  color: white;
+}
+.wrapper{
+    height: 100%;
+    overflow: hidden;
+}
+.content{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+title{
+    margin: 0px 0px 40px 0px;
+    font-size: 30px;
+    color: rgb(12, 12, 63);
+}
+.font,.animation,.background{
+    margin-bottom: 40px;
+}
+.font_icons{
+    height: 200px;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left:30px;
+    background-color: rgb(19, 26, 53);
+    border-radius: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    transition: width 2s;
+}
+.font_icons:hover{
+    width: 100%;
+    padding: 30px;
+    background-color:rgb(19, 26, 53) ;
+    border-radius: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.block_element{
+    height: 100px;
+    width: 100px;
+    padding: 1px;
+    background-color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: flex;
+    transform: skew(20deg);
+    animation: skew(20deg) 2s infinite;  
+}
+.animation_block{
+    width: 80%;
+    margin-top: 20px;
+    height: 200px;
+    margin-bottom: 20px;
+    padding-left:30px;
+    background-color: rgb(19, 26, 53);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text_tittle{
+    margin-top: 20px;
+}
+.image{
+    margin-top: 20px;
+background-image: url(1.png);
+height: 600px;
+width: 50%;
+background-color: #cccccc;
+background-repeat: no-repeat;
+}
